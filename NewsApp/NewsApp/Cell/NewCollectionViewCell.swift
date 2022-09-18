@@ -17,8 +17,8 @@ class NewCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
     
+    // Configure method use for setting new's data
     func configure(model : News){
-        
         imageView.image = UIImage(named: model.image)
         title.text = model.title
     }

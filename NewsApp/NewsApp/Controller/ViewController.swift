@@ -30,11 +30,12 @@ class ViewController: UIViewController {
         collectionView.collectionViewLayout = layout
     }
     
+    // Adding news list manually
     var newList = [
-        News(title: "Hellog", image: nil, description: "Haber tanımı", link: "www.google.com"),
-                 News(title: "Hellog", image: "hello", description: "Haber tanımı", link: "www.google.com"),
-                 News(title: "Meta", image: "meta", description: "Haber tanımı", link: "www.google.com"),
-                 News(title: "Venus", image: "venus", description: "Haber tanımı", link: "www.google.com")
+        News(title: "Hellog", image: nil, description: "Haber tanımı", link: "https://www.google.com/"),
+                 News(title: "Hellog", image: "hello", description: "Haber tanımı", link: "https://www.google.com/"),
+                 News(title: "Meta", image: "meta", description: "Haber tanımı", link: "https://www.google.com/"),
+                 News(title: "Venus", image: "venus", description: "Haber tanımı", link: "https://www.google.com/")
     ]
 }
 

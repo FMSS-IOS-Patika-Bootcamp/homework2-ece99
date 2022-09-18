@@ -17,6 +17,7 @@
 		37DA7EEB28D70F350039E173 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA7EEA28D70F350039E173 /* DetailViewController.swift */; };
 		37DA7EEE28D7107F0039E173 /* NewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA7EEC28D7107F0039E173 /* NewCollectionViewCell.swift */; };
 		37DA7EEF28D7107F0039E173 /* NewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DA7EED28D7107F0039E173 /* NewCollectionViewCell.xib */; };
+		37DA7EF128D7206D0039E173 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA7EF028D7206D0039E173 /* WebViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		37DA7EEA28D70F350039E173 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		37DA7EEC28D7107F0039E173 /* NewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollectionViewCell.swift; sourceTree = "<group>"; };
 		37DA7EED28D7107F0039E173 /* NewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCollectionViewCell.xib; sourceTree = "<group>"; };
+		37DA7EF028D7206D0039E173 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				37DA7ECC28D702470039E173 /* ViewController.swift */,
 				37DA7ECE28D702470039E173 /* Main.storyboard */,
 				37DA7EEA28D70F350039E173 /* DetailViewController.swift */,
+				37DA7EF028D7206D0039E173 /* WebViewViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DA7EF128D7206D0039E173 /* WebViewViewController.swift in Sources */,
 				37DA7ECD28D702470039E173 /* ViewController.swift in Sources */,
 				37DA7EC928D702470039E173 /* AppDelegate.swift in Sources */,
 				37DA7EEB28D70F350039E173 /* DetailViewController.swift in Sources */,
